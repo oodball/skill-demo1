@@ -9,7 +9,13 @@ java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUn
 
 ssh cs15lfa22ni@ieng6.ucsd.edu
 
+javac Server.java DocSearchServer.java
+
+java DocSearchServer 4220
+
 scp TestDocSearch.java cs15lfa22ni@ieng6.ucsd.edu:~/skill-demo1/TestDocSearch.java
+
+scp DocSearchServer.java cs15lfa22ni@ieng6.ucsd.edu:~/skill-demo1/DocSearchServer.java
 
 FileHelpers.readfile()to f.getAbsolutePath()
 
