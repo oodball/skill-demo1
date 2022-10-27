@@ -10,6 +10,9 @@ scp TestDocSearch.java cs15lfa22ni@ieng6.ucsd.edu:~/skill-demo1/TestDocSearch.ja
 
 FileHelpers.readfile()to f.getAbsolutePath()
 
+http://ieng6-203.ucsd.edu:4220/search?q=
+
+
 /search?q="arg"
 /search?q=technical
 /search?q=technical/
