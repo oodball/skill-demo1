@@ -2,6 +2,7 @@ The technical/ directory is a subdirectory of
 https://anc.org/data/oanc/download/
 
 cmds:
+
 javac -cp ".;lb/hamcrest-core-1.3/jar;lib/junit-4.13.2.jar" *.java
 
 java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore TestDocSearch 
